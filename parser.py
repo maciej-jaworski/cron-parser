@@ -73,7 +73,7 @@ def format_cron(cron_expression: str, field_name_padding=14):
             f"{'day of month'.ljust(field_name_padding)}{' '.join(map(str, days_of_month))}",
             f"{'month'.ljust(field_name_padding)}{' '.join(map(str, months))}",
             f"{'day of week'.ljust(field_name_padding)}{' '.join(map(str, days_of_week))}",
-            f"{'command'.ljust(field_name_padding)}{' '.join(map(str, command_components))}",
+            f"{'command'.ljust(field_name_padding)}{' '.join(command_components)}",
         ]
     )
 
